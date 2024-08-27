@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title for event -->
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/uploadTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textLongMessage"
+        android:hint="Title"/>
+
+    <!-- Description for event -->
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/uploadDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:minLines="3"
+        android:gravity="top"
+        android:hint="Description"/>
+
+    <!-- Image for event -->
+    <ImageButton
+        android:id="@+id/uploadImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/image_loading"
+        android:contentDescription="Upload Photo" />
+
+    <!-- Button to event upload -->
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Upload"
+        android:gravity="center"/>
+
+</LinearLayout>

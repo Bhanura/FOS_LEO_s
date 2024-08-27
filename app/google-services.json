@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1070945067295",
+    "firebase_url": "https://fos-leo-s-6b264-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fos-leo-s-6b264",
+    "storage_bucket": "fos-leo-s-6b264.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070945067295:android:e4bb8d3d286666d6be502a",
+        "android_client_info": {
+          "package_name": "com.example.fosleos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXU6pTCS2ic7lk3mW-6bTTLaB2lpRYXx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/option1"
+        android:orderInCategory="4"
+        android:title="Posting..."
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/option2"
+        android:orderInCategory="4"
+        android:title="Profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/option3"
+        android:orderInCategory="4"
+        android:title="Members"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/option4"
+        android:orderInCategory="4"
+        android:title="About Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/option5"
+        android:orderInCategory="4"
+        android:title="Log Out"
+        app:showAsAction="never" />
+
+</menu>
